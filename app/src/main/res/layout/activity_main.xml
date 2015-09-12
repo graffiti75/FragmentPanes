@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/id_fragment1"
+        android:name="com.example.rodrigo.fragmentpanes.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#BABACA" />
+
+    <fragment
+        android:id="@+id/id_fragment2"
+        android:name="com.example.rodrigo.fragmentpanes.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#BABACA" />
+
+    <fragment
+        android:id="@+id/id_fragment3"
+        android:name="com.example.rodrigo.fragmentpanes.Fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#BABACA" />
+</LinearLayout>
